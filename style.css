@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@300&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@400&family=Poppins:wght@400&family=Ubuntu:wght@500&display=swap');
+:root{
+    --Lightred : hsl(356, 100%, 66%); 
+    --VeryLightRed : hsl(355, 100%, 74%); 
+    --veryDarkBlue : hsl(208, 49%, 24%); 
+    --veryLightRedMobile : hsl(13, 100%, 72%); 
+    --lightRedMobile : hsl(353, 100%, 62%); 
+    --veryDarkGrayBlue : hsl(237, 17%, 21%); 
+    --veryDarkDesaturatedBlue : hsl(237, 23%, 32%);
+    --fontSize : 16px;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.block {
+    border-style: solid;
+    margin: 27px 10px 32px 10px;
+    padding: 11%;
+    border-bottom-left-radius: 15%;
+    /* background-color: var(--Lightred ); */
+    background-image: url(images/bg-pattern-intro-desktop.svg);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 19%;
+}
+
+
+
+.titleNav{
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+}
+
+.icon-blogr-title{
+    background-repeat: no-repeat; 
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    right: 107%;
+    bottom: 80%;
+}
+
+li {
+    list-style-type: none;
+    margin: 8px;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--veryDarkGrayBlue) ;
+}
+
+li > a ::after{
+    font-weight:400; 
+}
