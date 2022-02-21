@@ -19,20 +19,28 @@
 
 .block {
     border-style: solid;
-    margin: 27px 10px 32px 10px;
+    margin: 20px 1px 31px 0px;
     padding: 11%;
     border-bottom-left-radius: 15%;
-    /* background-color: var(--Lightred ); */
-    background-image: url(images/bg-pattern-intro-desktop.svg);
+    background-color: var(--Lightred );
+    background-image: url("images/bg-pattern-intro-desktop.svg");
+    background-position: 29% 53%;
+    background-size: 259%;
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    grid-gap: 6%;
     position: relative;
-    margin-left: 19%;
+    margin-left: 8%;
+    bottom: 107px;
 }
 
+
+.container > .item4{
+    position: relative;
+    left: 44%; 
+}
 
 
 .titleNav{
@@ -42,6 +50,8 @@
 
 .icon-blogr-title{
     background-repeat: no-repeat; 
+    color: white;
+    transform: rotate(180deg);
 }
 
 h1{
@@ -50,6 +60,11 @@ h1{
     position: absolute;
     right: 107%;
     bottom: 80%;
+    color: white;
+}
+
+ul{
+    color: white;
 }
 
 li {
