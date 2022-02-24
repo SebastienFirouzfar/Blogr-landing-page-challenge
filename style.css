@@ -145,6 +145,7 @@ p{
     text-align: center;
     color : var(--veryDarkBlue);
     font-family: 'Poppins', sans-serif; 
+    margin: 6%; 
 }
 
 .articleDesignerForTheFutur{
@@ -154,7 +155,7 @@ p{
 }
 
 .itemArticleDesigner1, .itemArticleDesigner2{
-    margin: 10px 10%;
+    margin: 0px 10%;
     font-family: 'Poppins', sans-serif; 
 }
 
@@ -165,8 +166,9 @@ p{
 }
 
 .imgDesigner{
-    width: 30%;
+    width: 41%;
     position: absolute;
-    margin: 0% 62%;
+    margin-left: 53%;
+    top: 109%;
 }
 /* end body / fin body*/
