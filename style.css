@@ -196,16 +196,44 @@ img{
     float: right;
 } */
 /* end body / fin body*/
+
+/*Infrastructure*/
 .infrastructure{
-    background-color:var(--veryDarkGrayBlue);
+    background-color: var(--veryDarkGrayBlue);
+    height: 300px;
+    margin: 2px;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+}
+
+.rowInfrastructure{
     display: flex;
     flex-direction: column;
-    height: 177px;
-    border-top-right-radius: 6rem;
-    border-bottom-left-radius: 6rem
 }
 
 .infrastructureTitle{
-    color:white;
-    font-family: 'Poppins', sans-serif; 
+    color: white;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    bottom: 396px;
+    left: 50%;
+    margin-right: 61%;
 }
+
+.infrastructureParaghaphe{
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    bottom: 374px;
+    margin-right: 37%;
+    margin-left: 23%;
+    left: 27%;
+}
+
+.imgPhone{
+    position: relative;
+    left: 3%;
+    bottom: 55px;
+    width: 33%;
+}
+
+/*End of infrastructure*/
