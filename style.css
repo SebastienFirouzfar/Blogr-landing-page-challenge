@@ -198,4 +198,14 @@ img{
 /* end body / fin body*/
 .infrastructure{
     background-color:var(--veryDarkGrayBlue);
+    display: flex;
+    flex-direction: column;
+    height: 177px;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem
+}
+
+.infrastructureTitle{
+    color:white;
+    font-family: 'Poppins', sans-serif; 
 }
