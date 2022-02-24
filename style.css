@@ -237,3 +237,52 @@ img{
 }
 
 /*End of infrastructure*/
+
+/*Computer*/
+.computer{
+    height: 394px;
+    position: relative;
+    top: 150px;
+    left: 25px;
+    margin-right: 5%;
+    margin-bottom: 223px;
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.rowComputer{
+} */
+
+.computerTitle{
+    color: var(--veryDarkBlue);
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 42%;
+    margin-right: 86%
+}
+
+.computerParagraph{
+    font-family: 'Outfit', sans-serif;
+    color: var(--veryDarkBlue);
+    margin: 3% 24%;
+    margin-left: 22%;
+    margin-right: 32%;
+    position: relative;
+    left: 20%;
+}
+
+.imgComputer{
+    position: relative;
+    bottom: 29rem;
+    right: 7%;
+}
+
+.imgDesktop{
+    height: 30rem
+}
+/*End computer*/
+
+/*footer*/
+.rowFooter{
+    background-color: var(--veryDarkGrayBlue);
+}
