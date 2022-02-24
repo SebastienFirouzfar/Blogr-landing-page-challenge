@@ -155,10 +155,18 @@ p{
 
 .itemArticleDesigner1, .itemArticleDesigner2{
     margin: 10px 5%;
+    font-family: 'Poppins', sans-serif; 
 }
 
 .paragrapheDesigner{
     margin: 5% 5%;
     color : var(--veryDarkBlue);
+    font-family: 'Outfit', sans-serif;
+}
+
+.imgDesigner{
+    width: 30%;
+    position: absolute;
+    margin: 0% 62%;
 }
 /* end body / fin body*/
