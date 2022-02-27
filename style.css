@@ -9,7 +9,6 @@
     --veryDarkGrayBlue : hsl(237, 17%, 21%); 
     --veryDarkDesaturatedBlue : hsl(237, 23%, 32%);
     --fontSize : 16px;
-
 }
 
 *{
@@ -21,7 +20,6 @@
 
 /*Header*/
 .block {
-    /* border-style: solid; */
     margin: 0px 1px 31px 0px;
     padding: 11%;
     border-bottom-left-radius: 15%;
@@ -35,20 +33,26 @@
     display: flex;
     grid-gap: 4%;
     position: relative;
-    margin-right: 29%;
+    right: 10%;
     bottom: 110px;
 }
 
-.container > .item{
+.item{
     position: relative;
     margin-top: 12px;
+}
+
+.titleNav{
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+    color: white;
 }
 
 /*text*/
 ul{
     display: none;  
+    color: white;
 }
-
 
 .container > .item4{
     position: relative;
@@ -70,34 +74,36 @@ ul{
     color: var(--VeryLightRed);
 }
 
-
-.titleNav{
-    font-family: 'Outfit', sans-serif;
-    cursor: pointer;
-    color: white;
-}
-
 .icon-blogr-title{
     background-repeat: no-repeat; 
     color: white;
     transform: rotate(180deg);
 }
 
-.active .icon-blogr-title{ /*Animation*/
+a{
+    text-decoration: none;
+}
+
+/*Animation*/
+.active .icon-blogr-title{ 
     transform: rotate(0deg);
     transition: all 0.5s ease-in;
 }
 
-.active ul{ /*Animation*/
-    display: block; 
-    border-style:solid;
-    background-color:white;
-    transition: all 0.5s ease-in;
-    padding: 10px;
+/*Animation*/
+.active ul{ 
+    display: block;
+    border-style: solid;
+    background-color: white;
+    transition: all 0.2s ease-in;
+    padding: 8px;
+    width: 95%;
 }
 
 ul > li{ 
     font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    margin: 8px;
 }
 
 .nameProject{
@@ -115,24 +121,6 @@ ul > li{
     color: white;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;   
-}
-
-ul{
-    color: white;
-}
-
-li {
-    list-style-type: none;
-    margin: 8px;
-}
-
-li > a {
-    text-decoration: none;
-    color: var(--veryDarkGrayBlue) ;
-}
-
-li > a ::after{
-    font-weight:400; 
 }
 
 p{
@@ -204,9 +192,9 @@ p{
     right: 13%;
 }
 
-.imgIllustration{
-    position: absolute;
-    top: 609px;
+.blockImgIllustration{
+    position: relative;
+    bottom: 485px;
     left: 63%;
 }
 
@@ -298,7 +286,7 @@ p{
 /*End computer*/
 
 /*footer*/
-.containerFooter{
+/* .containerFooter{
     background-color: var(--veryDarkGrayBlue);
     height: 300px; 
     border-top-right-radius: 6rem;
@@ -321,4 +309,8 @@ p{
 .linkFooter{
     color: white;
 }
+
+.test{
+    color: white;
+} */
 
