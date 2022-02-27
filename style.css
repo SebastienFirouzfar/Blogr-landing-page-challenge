@@ -49,7 +49,7 @@
 }
 
 /*text*/
-ul{
+.listNavigation{
     display: none;  
     color: white;
 }
@@ -120,7 +120,7 @@ li{
     bottom: 43px;
     color: white;
     font-weight: 800;
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Outfit', sans-serif; 
 }
 
 p{
@@ -175,13 +175,13 @@ p{
 
 .itemArticleDesigner{
     margin: 0px 10%;
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .paragrapheDesigner{
     margin: 4% 23%;
     color: var(--veryDarkBlue);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: var(--fontSize);
     position: relative;
     right: 13%;
@@ -219,14 +219,14 @@ p{
 .infrastructureTitle{
     color: white;
     position: relative;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Outfit', sans-serif;
     bottom: 396px;
     left: 50%;
     margin-right: 61%;
 }
 
 .infrastructureParaghaphe{
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     position: relative;
     bottom: 374px;
     margin-right: 37%;
@@ -310,6 +310,9 @@ p{
     color: white;
 }
 
+.listFooter{
+    color: white;
+}
 
 
-
+/**/
