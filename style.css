@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@300&family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@400&family=Poppins:wght@400&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@300&family=Poppins:wght@200&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@300&family=Poppins:wght@200&family=Ubuntu:wght@500&display=swap');
 :root{
     --Lightred : hsl(356, 100%, 66%); 
     --VeryLightRed : hsl(355, 100%, 74%); 
@@ -14,11 +14,11 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 
-/*Header*/
+/*Navigation*/
 .block {
     margin: 0px 1px 31px 0px;
     padding: 11%;
@@ -43,7 +43,7 @@
 }
 
 .titleNav{
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Overpass', sans-serif;
     cursor: pointer;
     color: white;
 }
@@ -100,14 +100,14 @@ a{
     width: 95%;
 }
 
-ul > li{ 
-    font-family: 'Poppins', sans-serif;
+li{ 
+    font-family: 'Ubuntu', sans-serif;
     list-style-type: none;
     margin: 8px;
 }
 
 .nameProject{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
     position: relative;
     margin-right: 4%;
@@ -126,6 +126,7 @@ ul > li{
 p{
     color: white;
     position: relative;
+    font-family: 'Ubuntu', sans-serif;
     margin-left: 33%;
     bottom: 27px;
 }
@@ -155,13 +156,13 @@ p{
     color: var(--VeryLightRed);
 }
 
-/*End header / fin header*/
+/*End navigation / fin navigation*/
 
-/*Body*/
+/*Body Designer*/
 .titleDesigner{
     text-align: center;
     color : var(--veryDarkBlue);
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
     margin: 6%; 
 }
 
@@ -171,12 +172,6 @@ p{
     height: 450px;
 }
 
-.blockImgIllustration{
-    position: relative;
-    left: 63%;
-    margin-right: 67%;
-    bottom: 104%;
-}
 
 .itemArticleDesigner{
     margin: 0px 10%;
@@ -195,6 +190,7 @@ p{
 .blockImgIllustration{
     position: relative;
     bottom: 485px;
+    margin-right: 67%;
     left: 63%;
 }
 
@@ -210,6 +206,9 @@ p{
     margin: 2px;
     border-top-right-radius: 6rem;
     border-bottom-left-radius: 6rem;
+    background-image: url("images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: right 31em bottom 22%;
 }
 
 .rowInfrastructure{
@@ -220,7 +219,7 @@ p{
 .infrastructureTitle{
     color: white;
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     bottom: 396px;
     left: 50%;
     margin-right: 61%;
@@ -258,7 +257,7 @@ p{
 
 .computerTitle{
     color: var(--veryDarkBlue);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Overpass', sans-serif;
     position: relative;
     left: 42%;
     margin-right: 86%
@@ -286,7 +285,7 @@ p{
 /*End computer*/
 
 /*footer*/
-/* .containerFooter{
+.containerFooter{
     background-color: var(--veryDarkGrayBlue);
     height: 300px; 
     border-top-right-radius: 6rem;
@@ -304,13 +303,13 @@ p{
 
 .titleNavFooter{
     font-family: 'Outfit', sans-serif;
+    color: white;
 }
 
 .linkFooter{
     color: white;
 }
 
-.test{
-    color: white;
-} */
+
+
 
