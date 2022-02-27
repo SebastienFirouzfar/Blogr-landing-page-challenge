@@ -29,12 +29,18 @@
     background-size: 259%;
 }
 
+.imgBlock{
+    position: relative;
+    right: 10%;
+    bottom: 92px;
+}
+
 .container {
     display: flex;
     grid-gap: 4%;
     position: relative;
-    right: 10%;
-    bottom: 110px;
+    left: 4%;
+    bottom: 139px;
 }
 
 .item{
@@ -57,7 +63,6 @@
 .container > .item4{
     position: relative;
     left: 41%;
-    margin-bottom: 12%;
 }
 
 .item4 > button{
@@ -98,6 +103,7 @@ a{
     transition: all 0.2s ease-in;
     padding: 8px;
     width: 95%;
+    box-shadow: 0px 0px 12px 4px rgb(131, 132, 155);
 }
 
 li{ 
@@ -175,13 +181,14 @@ p{
 
 .itemArticleDesigner{
     margin: 0px 10%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
 }
 
 .paragrapheDesigner{
     margin: 4% 23%;
     color: var(--veryDarkBlue);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Overpass', sans-serif;
     font-size: var(--fontSize);
     position: relative;
     right: 13%;
@@ -260,13 +267,13 @@ p{
     font-family: 'Overpass', sans-serif;
     position: relative;
     left: 42%;
-    margin-right: 86%
+    margin-right: 50%;
 }
 
 .computerParagraph{
     font-family: 'Outfit', sans-serif;
     color: var(--veryDarkBlue);
-    margin: 3% 24%;
+    margin: 3%;
     margin-left: 22%;
     margin-right: 32%;
     position: relative;
@@ -315,4 +322,15 @@ p{
 }
 
 
-/**/
+/*Tablete and mobile*/
+
+@media (max-width: 991px){
+    /*Navigation*/
+    .container{
+        display:none;
+    }
+    
+    /*End Navigation*/
+
+
+}
