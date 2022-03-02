@@ -183,11 +183,15 @@ p{
 }
 
 .containerDesigner{
-    display: flex;
-    flex-direction: column;
-    height: 450px;
+    height: 400px;
 }
 
+.rowDesigner{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 40px;
+}
 
 .itemArticleDesigner{
     margin: 0px 10%;
@@ -219,7 +223,7 @@ p{
 /*Infrastructure*/
 .infrastructure{
     background-color: var(--veryDarkGrayBlue);
-    height: 300px;
+    height: 342px;
     margin: 2px;
     border-top-right-radius: 6rem;
     border-bottom-left-radius: 6rem;
@@ -230,46 +234,51 @@ p{
 
 .rowInfrastructure{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 0px;
+    position: relative;
+    margin-right: 5%;
 }
 
 .infrastructureTitle{
     color: white;
-    position: relative;
     font-family: 'Outfit', sans-serif;
-    bottom: 396px;
-    left: 50%;
-    margin-right: 61%;
 }
 
 .infrastructureParaghaphe{
     font-family: 'Ubuntu', sans-serif;
     position: relative;
-    bottom: 374px;
-    margin-right: 37%;
-    margin-left: 23%;
-    left: 27%;
+    top: 16%;
 }
 
-.imgPhone{
+.itemInfrastructure{
     position: relative;
-    left: 3%;
-    bottom: 55px;
-    width: 33%;
+    top: 50px;
+    height: 220px;
+}
+
+
+.imgPhone{
+    width: 40%;
+    position: relative;
+    bottom: 77px;
 }
 
 /*End of infrastructure*/
 
 /*Computer*/
-.computer{
-    height: 394px;
+.computerContainer{
+    width: 99%;
+    height: 600px;
     position: relative;
-    top: 150px;
-    left: 25px;
-    margin-right: 5%;
-    margin-bottom: 223px;
-    display: flex;
-    flex-direction: column;
+    left: 3px;
+}
+
+.rowComputer{
+    display: block;
+    position: relative;
+    top: 28%;
+    height: 341px;
 }
 
 .computerTitle{
@@ -336,17 +345,65 @@ p{
 
 @media (max-width: 991px){
     /*Navigation*/
+    
+
     .item, .item4{
         display:none;
     }
 
+    .headerTitle{
+        position:relative;
+        left:20px;
+    }
+
+    p{
+        text-align:center;
+    }
     /*End Navigation*/
 
     /*Designer*/
-    /* .containerDesigner{
+    .containerDesigner{
+        height: 900px;
+    }
+
+    .rowDesigner{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 42%;
+        left: 18%;
+        margin-right: 20%;
+    }
+
+    .itemDesigner{
+        position: relative;
+        right: 96px;
+    }
+
+    .itemArticleDesigner{
+        position: relative;
+        left: 24%;
+    }
+
+    .paragrapheDesigner{
+        position: relative;
+        top: 2px;
+        left: 2%;
+        font-size: 20px;
+    }
     
-    } */
 
+    .imgIllustrator {
+        height: 408px;
+        position: relative;
+        right: 109%;
+        bottom: 70px;
+    }
 
+    /*ENd designer*/
 
+    /*Infrastructure*/
+    .infrastructure{
+        height: 342px;
+    }
 }
