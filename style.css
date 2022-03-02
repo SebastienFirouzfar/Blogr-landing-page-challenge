@@ -19,28 +19,31 @@
 
 
 /*Navigation*/
-.block {
-    margin: 0px 1px 31px 0px;
-    padding: 11%;
+.container {
     border-bottom-left-radius: 15%;
-    background-color: var(--Lightred );
+    background-color: var(--Lightred);
+    width: 99%;
+    height: 375px;
+    border-style: solid;
+    border-bottom-left-radius: 15%;
     background-image: url("images/bg-pattern-intro-desktop.svg");
-    background-position: 29% 53%;
-    background-size: 259%;
+    background-repeat: no-repeat;
+    background-position: 30%;
 }
 
 .imgBlock{
     position: relative;
-    right: 10%;
-    bottom: 92px;
+    top: 13%;
+    left: 6%;
 }
 
-.container {
+.row {
     display: flex;
-    grid-gap: 4%;
+    flex-direction: row;
+    gap: 46px;
     position: relative;
-    left: 4%;
-    bottom: 139px;
+    left: 17%;
+    margin-right: 39%;
 }
 
 .item{
@@ -60,10 +63,6 @@
     color: white;
 }
 
-.container > .item4{
-    position: relative;
-    left: 41%;
-}
 
 .item4 > button{
     background-color: Transparent;
@@ -72,6 +71,11 @@
     border-radius: 24px;
     border-width: 0px;
     color: white;
+}
+
+.item4{
+    position: relative;
+    left: 45%;
 }
 
 .item4 > button:hover{
@@ -120,6 +124,12 @@ li{
     color: white;
 }
 
+.headerTitle{
+    position: absolute;
+    top: 46%;
+    left: 36%;
+}
+
 .section{
     position: relative;
     text-align: center;
@@ -133,7 +143,7 @@ p{
     color: white;
     position: relative;
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 33%;
+    /* margin-left: 33%; */
     bottom: 27px;
 }
 
@@ -148,8 +158,8 @@ p{
 .button{
     color: white;
     border-style: solid;
-    height: 40px;
-    width: 15%;
+    height: 47px;
+    width: 43%;
     border-radius: 16px;
     background-color: Transparent;
     border-color: white;
@@ -326,11 +336,17 @@ p{
 
 @media (max-width: 991px){
     /*Navigation*/
-    .container{
+    .item, .item4{
         display:none;
     }
-    
+
     /*End Navigation*/
+
+    /*Designer*/
+    /* .containerDesigner{
+    
+    } */
+
 
 
 }
