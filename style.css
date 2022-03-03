@@ -208,15 +208,18 @@ p{
     right: 13%;
 }
 
-.blockImgIllustration{
+/* .blockImgIllustration{
     position: relative;
     bottom: 485px;
     margin-right: 67%;
     left: 63%;
-}
+} */
 
 .imgIllustrator{
     height: 445px;
+    position: relative;
+    bottom: 118%;
+    left: 63%;
 }
 /* end body / fin body*/
 
@@ -345,7 +348,10 @@ p{
 
 @media (max-width: 991px){
     /*Navigation*/
-    
+    .container{
+        width: 98%;
+    }
+
 
     .item, .item4{
         display:none;
@@ -370,8 +376,8 @@ p{
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 42%;
-        left: 18%;
+        top: 38%;
+        left: 14%;
         margin-right: 20%;
     }
 
@@ -394,16 +400,87 @@ p{
     
 
     .imgIllustrator {
-        height: 408px;
+        height: 383px;
         position: relative;
-        right: 109%;
-        bottom: 70px;
+        left: 26%;
+        bottom: 64%;
     }
-
     /*ENd designer*/
 
     /*Infrastructure*/
     .infrastructure{
-        height: 342px;
+        height: 480px;
+        width: 99%;
+    }
+
+    .rowInfrastructure{
+        display: block;
+        position: relative;
+        bottom: 16%;
+    }
+
+    .itemInfrastructure{
+        position: relative;
+        left: 3%;
+        text-align: center;
+    }
+
+    .imgPhone{
+        position: relative;
+        top: 65px;
+        left: 30%;
+        width: 42%;
+    }
+    /*End infrastructure*/
+
+    /*Computer*/
+    .computerTitle{
+        margin-right: 55%;
+        position: relative;
+        left: 39%;
+    }
+
+    .rowComputer{
+        display: block;
+        position: relative;
+        top: 50%;
+        height: 387px;
+    }
+
+    .imgDesktop{
+        height: 15rem;
+        position: absolute;
+        top: 101px;
+    }
+
+    .computerParagraph{
+        position: relative;
+        left: 22px;
+        margin-right: 24%;
+    }
+
+    .imgComputer{
+        position: relative;
+        bottom: 44rem;
+        left: 31%;
+        margin-right: 44%;
+    }
+
+    /*End computer*/
+
+    /*footer*/
+
+    .containerFooter{
+        height: 632px;
+    }
+
+    .rowFooter{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 10%;
+        left: 38%;
+        margin-right: 64%;
+        gap: 30px;
     }
 }
