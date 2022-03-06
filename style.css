@@ -17,7 +17,7 @@
     /* box-sizing: border-box; */
 }
 
-.mobileContainer, label {
+#mobileContainer, label {
     display: none;
 }
 
@@ -211,13 +211,6 @@ p{
     position: relative;
     right: 13%;
 }
-
-/* .blockImgIllustration{
-    position: relative;
-    bottom: 485px;
-    margin-right: 67%;
-    left: 63%;
-} */
 
 .imgIllustrator{
     height: 445px;
@@ -501,8 +494,25 @@ p{
         top: 4%; 
     }
 
-    #rowMobile{
+    #mobileContainer {
         display: block;
-        color: white;
+        position: absolute;
+        top: 8.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+        padding: 2rem 1.5rem;
+        background: hsl(0, 0%, 100%);
+        box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        border: none;
+        border-radius: .5rem;
+        z-index: 10;
+        transition: .5s;
+    }
+
+    .titleNavMobile{
+        font-family: 'Overpass', sans-serif;
+        color: var(--veryDarkGrayBlue);
     }
 }

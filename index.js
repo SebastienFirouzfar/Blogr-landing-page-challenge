@@ -10,9 +10,9 @@ document.querySelectorAll(".titleNavBlock").forEach((titleNavBlock) => titleNavB
 
 //mobileContainer
 let btnMobile = document.getElementById("mobileMenu"); 
-let mobilenav = document.getElementById("rowMobile");
+let mobilenav = document.getElementById("mobileContainer");
 
-mobilenav.style.left = "-100%";
+mobilenav.style.left = "-50%";
 
 btnMobile.addEventListener("click", function() {
     if(mobilenav.style.left == "-100%"){
