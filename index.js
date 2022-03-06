@@ -6,3 +6,20 @@ document.querySelectorAll(".titleNavBlock").forEach((titleNavBlock) => titleNavB
         titleNavBlock.parentNode.classList.add("active")
     }
 }))
+
+
+//mobileContainer
+let btnMobile = document.getElementById("mobileMenu"); 
+let mobilenav = document.getElementById("rowMobile");
+
+mobilenav.style.left = "-100%";
+
+btnMobile.addEventListener("click", function() {
+    if(mobilenav.style.left == "-100%"){
+        mobilenav.style.left = "50%";
+        btnMobile.src = "images/icon-close.svg";
+    } else{
+        mobilenav.style.left = "-100%";
+        btnMobile.src = "images/icon-hamburger.svg";
+    }
+})

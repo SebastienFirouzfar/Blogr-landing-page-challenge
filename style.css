@@ -17,6 +17,10 @@
     /* box-sizing: border-box; */
 }
 
+.mobileContainer, label {
+    display: none;
+}
+
 
 /*Navigation*/
 .container {
@@ -405,7 +409,7 @@ p{
         left: 26%;
         bottom: 64%;
     }
-    /*ENd designer*/
+    /*End designer*/
 
     /*Infrastructure*/
     .infrastructure{
@@ -434,6 +438,10 @@ p{
     /*End infrastructure*/
 
     /*Computer*/
+    .computerContainer{
+        height: 700px;
+    }
+
     .computerTitle{
         margin-right: 55%;
         position: relative;
@@ -444,13 +452,14 @@ p{
         display: block;
         position: relative;
         top: 50%;
-        height: 387px;
+        height: 350px;
     }
 
     .imgDesktop{
-        height: 15rem;
+        height: 19rem;
         position: absolute;
-        top: 101px;
+        top: 10px;
+        right: 13%;
     }
 
     .computerParagraph{
@@ -471,16 +480,29 @@ p{
     /*footer*/
 
     .containerFooter{
-        height: 632px;
+        height: 215px;
     }
 
     .rowFooter{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         position: relative;
         top: 10%;
-        left: 38%;
-        margin-right: 64%;
-        gap: 30px;
+        left: 7%;
+        gap: 8%;
+    }
+
+    /*table and mobile devices*/    
+    label{
+        display: flex;
+        justify-content: end;
+        position: relative;
+        right: 7%;
+        top: 4%; 
+    }
+
+    #rowMobile{
+        display: block;
+        color: white;
     }
 }
