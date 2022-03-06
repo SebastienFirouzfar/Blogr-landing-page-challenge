@@ -514,5 +514,10 @@ p{
     .titleNavMobile{
         font-family: 'Overpass', sans-serif;
         color: var(--veryDarkGrayBlue);
+        cursor: pointer;
+    }
+
+    .icon-blogr-title-mobile{
+        color:var(--veryDarkGrayBlue);
     }
 }
