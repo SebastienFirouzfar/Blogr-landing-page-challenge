@@ -343,10 +343,10 @@ p{
 
 /*Tablete and mobile*/
 
-@media (max-width: 991px){
+@media all and (max-width: 991px){
     /*Navigation*/
     .container{
-        width: 98%;
+        width: 97%;
     }
 
 
@@ -366,7 +366,7 @@ p{
 
     /*Designer*/
     .containerDesigner{
-        height: 900px;
+        height: 1000px;
     }
 
     .rowDesigner{
@@ -374,7 +374,7 @@ p{
         flex-direction: column;
         position: relative;
         top: 38%;
-        left: 14%;
+        left: 20%;
         margin-right: 20%;
     }
 
@@ -385,7 +385,7 @@ p{
 
     .itemArticleDesigner{
         position: relative;
-        left: 24%;
+        left: 25%;
     }
 
     .paragrapheDesigner{
@@ -397,10 +397,10 @@ p{
     
 
     .imgIllustrator {
-        height: 383px;
-        position: relative;
-        left: 26%;
-        bottom: 64%;
+        height: 381px;
+        position: absolute;
+        left: 30%;
+        top: 31rem;
     }
     /*End designer*/
 
@@ -411,20 +411,22 @@ p{
     }
 
     .rowInfrastructure{
-        display: block;
+        display: flex;
+        flex-direction: column;
         position: relative;
-        bottom: 16%;
+        bottom: 39%;
     }
 
     .itemInfrastructure{
         position: relative;
         left: 3%;
+        top: 120px;
         text-align: center;
     }
 
     .imgPhone{
         position: relative;
-        top: 65px;
+        top: 112px;
         left: 30%;
         width: 42%;
     }
@@ -451,8 +453,8 @@ p{
     .imgDesktop{
         height: 19rem;
         position: absolute;
-        top: 10px;
-        right: 13%;
+        top: 76px;
+        right: 28%;
     }
 
     .computerParagraph{
@@ -482,7 +484,7 @@ p{
         position: relative;
         top: 10%;
         left: 7%;
-        gap: 8%;
+        gap: 13%;
     }
 
     /*table and mobile devices*/    
@@ -517,7 +519,18 @@ p{
         cursor: pointer;
     }
 
+    .active .icon-blogr-title-mobile {
+        transform: rotate(0deg);
+        transition: all 0.5s ease-in;
+    }
+
     .icon-blogr-title-mobile{
-        color:var(--veryDarkGrayBlue);
+        transform: rotate(180deg);
+        transition: all 0.5s ease-in;
+    }
+
+    .active ul{
+        background-color: rgb(224, 217, 217);
     }
 }
+

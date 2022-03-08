@@ -8,7 +8,7 @@ document.querySelectorAll(".titleNavBlock").forEach((titleNavBlock) => titleNavB
 }))
 
 
-//mobileContainer
+//mobileContainer nav
 let btnMobile = document.getElementById("mobileMenu"); 
 let mobilenav = document.getElementById("mobileContainer");
 
