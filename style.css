@@ -570,11 +570,46 @@ p{
 
 
 @media all and (max-width: 576px){
+    /*container*/
+    
+    .headerTitle{
+        position: relative;
+        left: 6px;
+        margin: 10px;
+        top: 150px;
+    }
 
+    .button{
+        color: white;
+        border-style: solid;
+        height: 47px;
+        width: 43%;
+        border-radius: 16px;
+        background-color: Transparent;
+        border-color: white;
+        border-width: 1px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .imgBlock{
+        position: relative;
+        top :34px; 
+    }
+
+    label {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        left: 81%;
+        top: 0%;
+    }
+
+    /*End container*/
 
     /*Designer*/
     .containerDesigner{
-        height: 880px;
+        height: 63rem;
     }
 
     .paragrapheDesigner{
@@ -585,7 +620,7 @@ p{
 
     .rowDesigner{
         position: relative;
-        top: 39%;
+        top: 31%;
     }
 
     .itemArticleDesigner{
@@ -597,7 +632,7 @@ p{
     .imgIllustrator{
         height: 289px;
         position: absolute;
-        left: 16%;
+        left: 8%;
     }
     /*End designer*/
 
@@ -643,6 +678,7 @@ p{
         margin: 6% 13%;
     }
 
+    /*End computer*/
 
     /*Footer*/
     .containerFooter{
