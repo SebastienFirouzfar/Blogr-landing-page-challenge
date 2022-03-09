@@ -299,14 +299,10 @@ p{
     left: 20%;
 }
 
-.imgComputer{
-    position: relative;
-    bottom: 29rem;
-    right: 7%;
-}
-
 .imgDesktop{
-    height: 30rem
+    position: absolute;
+    height: 28rem;
+    bottom: 0%;
 }
 /*End computer*/
 
@@ -346,7 +342,7 @@ p{
 @media all and (max-width: 991px){
     /*Navigation*/
     .container{
-        width: 97%;
+        width: 96%;
     }
 
 
@@ -374,8 +370,8 @@ p{
         flex-direction: column;
         position: relative;
         top: 38%;
-        left: 20%;
-        margin-right: 20%;
+        left: 5%;
+        margin: 5% 10%;
     }
 
     .itemDesigner{
@@ -447,28 +443,26 @@ p{
         display: block;
         position: relative;
         top: 50%;
+        right: 3%;
         height: 350px;
     }
 
     .imgDesktop{
         height: 19rem;
         position: absolute;
-        top: 76px;
-        right: 28%;
+        left: 25%;
+        bottom: 104%;
     }
 
     .computerParagraph{
+        /* position: relative;
+        left: 22px;
+        margin-right: 24%; */
         position: relative;
         left: 22px;
-        margin-right: 24%;
+        margin: 6% 13%;
     }
 
-    .imgComputer{
-        position: relative;
-        bottom: 44rem;
-        left: 31%;
-        margin-right: 44%;
-    }
 
     /*End computer*/
 
@@ -476,6 +470,7 @@ p{
 
     .containerFooter{
         height: 215px;
+        width: 93%;
     }
 
     .rowFooter{
@@ -534,3 +529,135 @@ p{
     }
 }
 
+
+
+@media all and (max-width: 768px){
+
+
+    /*Designer*/
+    .rowDesigner{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 38%;
+        left: 6%;
+        margin: 5% 10%;
+    }
+
+    .containerDesigner{
+        height: 780px;
+    }
+
+    .paragrapheDesigner{
+        margin: 5% 10%;
+    }
+
+    .imgIllustrator {
+        height: 352px;
+        position: absolute;
+        left: 19%;
+        top: 30rem;
+    }
+
+    .imgDesktop {
+        height: 19rem;
+        position: absolute;
+        /* top: 0px; */
+        right: 18%;
+    }
+      /* End Designer*/
+}
+
+
+@media all and (max-width: 576px){
+
+
+    /*Designer*/
+    .containerDesigner{
+        height: 880px;
+    }
+
+    .paragrapheDesigner{
+        position: relative;
+        left: 20%;
+        margin: 5% 10%;
+    }
+
+    .rowDesigner{
+        position: relative;
+        top: 39%;
+    }
+
+    .itemArticleDesigner{
+        margin: 5px;
+        position: relative;
+        left: 33%;
+    }
+
+    .imgIllustrator{
+        height: 289px;
+        position: absolute;
+        left: 16%;
+    }
+    /*End designer*/
+
+    /*infrastructure*/
+    .infrastructure{
+        height: 372px;
+        position: relative;
+        top: 9rem;
+    }
+
+    .rowInfrastructure{
+        position: relative;
+        bottom: 51%;
+    }
+    /*end infrastructure*/
+
+    /*Computer*/
+    .imgDesktop{
+        position: relative;
+        left: 16%;
+        bottom:41rem;
+        height: 14rem;
+    }
+
+    .rowComputer{
+        position: relative;
+        top: 57%;
+    }
+
+    .itemComputer{
+        position: relative;
+        right: 10%;
+    }
+
+    .computerTitle{
+        position: relative;
+        left: 47%;
+    }
+
+    .computerParagraph {
+        position: relative;
+        left: 13%;
+        margin: 6% 13%;
+    }
+
+
+    /*Footer*/
+    .containerFooter{
+        height: 567px;
+        width: 97%;
+        position: relative;
+        top: 6rem;
+    }
+
+    .rowFooter{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 33%;
+        gap: 15px;
+    }
+
+}
