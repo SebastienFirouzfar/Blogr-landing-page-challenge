@@ -570,57 +570,44 @@ p{
 
 
 @media all and (max-width: 576px){
-    /*container*/
-    
-    .headerTitle{
-        position: relative;
-        left: 6px;
-        margin: 10px;
-        top: 150px;
-    }
 
-    .button{
-        color: white;
-        border-style: solid;
-        height: 47px;
-        width: 43%;
-        border-radius: 16px;
-        background-color: Transparent;
-        border-color: white;
-        border-width: 1px;
-        cursor: pointer;
-        margin: 5px;
-    }
-
+    /*Container*/
     .imgBlock{
         position: relative;
-        top :34px; 
+        top: 35px;
     }
 
-    label {
+    .headerTitle {
+        position: relative;
+        left: 4px;
+        margin: 10px 18px;
+    }
+
+    label{
         display: flex;
         justify-content: end;
         position: relative;
-        left: 81%;
+        left: 83%;
         top: 0%;
+        margin-right: 85%;
     }
-
     /*End container*/
 
     /*Designer*/
     .containerDesigner{
-        height: 63rem;
+        height: 64rem;
     }
 
+    
     .paragrapheDesigner{
         position: relative;
-        left: 20%;
+        left: 25%;
         margin: 5% 10%;
     }
 
     .rowDesigner{
         position: relative;
-        top: 31%;
+        top: 32%;
     }
 
     .itemArticleDesigner{
@@ -630,9 +617,9 @@ p{
     }
 
     .imgIllustrator{
-        height: 289px;
+        height: 319px;
         position: absolute;
-        left: 8%;
+        left: 5%;
     }
     /*End designer*/
 
@@ -650,10 +637,14 @@ p{
     /*end infrastructure*/
 
     /*Computer*/
+    .computerContainer {
+        height: 48rem;
+    }
+
     .imgDesktop{
         position: relative;
         left: 16%;
-        bottom:41rem;
+        bottom: 44rem;
         height: 14rem;
     }
 
@@ -675,14 +666,13 @@ p{
     .computerParagraph {
         position: relative;
         left: 13%;
-        margin: 6% 13%;
+        margin: 8% 13%;
     }
 
-    /*End computer*/
 
     /*Footer*/
     .containerFooter{
-        height: 567px;
+        height: 625px;
         width: 97%;
         position: relative;
         top: 6rem;
@@ -692,8 +682,8 @@ p{
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 33%;
-        gap: 15px;
+        left: 36%;
+        gap: 39px;
     }
 
-}
+} 
